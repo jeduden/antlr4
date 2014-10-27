@@ -38,9 +38,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.antlr</groupId>
+        <groupId>nl.duden</groupId>
         <artifactId>antlr4-master</artifactId>
-        <version>4.4-SNAPSHOT</version>
+        <version>4.5-SNAPSHOT</version>
     </parent>
 
     <artifactId>antlr4-maven-plugin</artifactId>
@@ -103,7 +103,7 @@
          than -1 -2 -3 etc patch releases.
           -->
         <dependency>
-            <groupId>org.antlr</groupId>
+		<groupId>nl.duden</groupId>
             <artifactId>antlr4</artifactId>
             <version>${project.version}</version>
         </dependency>

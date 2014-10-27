@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.antlr</groupId>
+        <groupId>nl.duden</groupId>
         <artifactId>antlr4-master</artifactId>
-        <version>4.4-SNAPSHOT</version>
+        <version>4.5-SNAPSHOT</version>
     </parent>
 
     <artifactId>antlr4</artifactId>
@@ -33,13 +33,13 @@
            <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.antlr</groupId>
+            <groupId>nl.duden</groupId>
             <artifactId>antlr4-runtime</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.antlr</groupId>
+            <groupId>nl.duden</groupId>
             <artifactId>antlr4-annotations</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
